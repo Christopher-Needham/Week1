@@ -46,17 +46,22 @@ public class VariablesAndObjects {
 
 		//a customer booked 2 plane seats, remove 2 seats from the available seats variable
 		availableSeats = availableSeats - 2;
+		System.out.println(availableSeats);
+		
 		
 
 		//impulse candy bar purchase, add 2.15 to the grocery total
 		groceriesCost = groceriesCost + 2.15;
+		System.out.println(groceriesCost);
 
 
 		//birth certificate was printed incorrectly, change the middle initial to something else
 		middleInitial = 'B';
+		System.out.println(middleInitial);
 
 		//the season has changed, update the hot outside variable to be opposite of what it was
 		isHot = false;
+		System.out.println(isHot);
 
 		//create a new variable called full name using the customer's first name, the middle initial, and a last name of your choice
 		String fullName = customerName + " " + middleInitial + " " + "Thompson";
